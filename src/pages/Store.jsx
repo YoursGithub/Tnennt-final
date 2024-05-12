@@ -115,11 +115,11 @@ function Store() {
     {/* <div className='follow-btn'><button onClick={handleClick}>follow store</button></div> */}
     <section className='lg:hidden'>
       <div className="flex justify-between items-center">
-        <div className="mt-7 ml-4">
+        <div className="mt-6 ml-4">
           <p className="text-[3vw] text-[#727272] font-bold" id="todaysDate">{todaysDate}</p>
           <h2 className="text-[6vw] font-bold">Barnik Deb <span className="text-green-500"> &bull;</span></h2>
         </div>
-        <div className="flex justify-center items-center gap-4 mt-7 mr-3">
+        <div className="flex justify-center items-center gap-4 mt-6 mr-3">
           <Link to='/storenotification'>
           <img className="w-[21px]" src={notificationIcon} alt="" />
           </Link>
@@ -131,7 +131,7 @@ function Store() {
         </div>
       </div>
 
-      <div className="mt-7 p-3 relative">
+      <div className="mt-4 p-3 relative">
         
         <div className="w-12 h-12 bg-[#DDDDDD] rounded-full absolute top-5 left-5 flex items-center justify-center">
           <img src={image4} alt="" className="w-8" />
@@ -141,9 +141,9 @@ function Store() {
 
       <div className="flex justify-center relative">
         <div className="relative">
-          <img className="w-[93vw] mt-6 mb-5" src={frame396} alt="" />
+          <img className="w-[93vw] mt-3 mb-5" src={frame396} alt="" />
 
-          <h2 className="absolute bottom-2 left-0 text-white ml-6 mb-4 font-bold leading-[1.2] text-[4vw]" style={{ bottom: '54%', left: '8%' }}>Buy From Your Local Store<br />At A Discounted Price</h2>
+          <h2 className="absolute bottom-2 left-0 text-white ml-6 mb-4 font-bold leading-[1.2] text-[4vw]" style={{ bottom: '57%', left: '7%' }}>Buy From Your Local Store<br />At A Discounted Price</h2>
           <h2 className="absolute bottom-2 left-0 text-white ml-6 mb-4 leading-[1.2] text-[4vw]" style={{ bottom: '29%', left: '74%' }}>Tnennt<br />Store<span className="text-red-500"> &bull;</span></h2>
           <div className="absolute bottom-9 left-5 w-[38vw]" id="carousel" data-auto="true">
           <Swiper
@@ -235,7 +235,7 @@ function Store() {
       </div>
       <div className="mt-6 ml-3 flex gap-3 flex-wrap w-[93vw]">
       <button
-        className={`text-[4vw] focus:outline-none visited:outline-none active:outline-none category-button border border-black ${
+        className={`text-[3.4vw] focus:outline-none visited:outline-none active:outline-none category-button border border-black ${
           selectedCategory === 'vehicles' ? 'bg-[#343434] text-white' : 'bg-white text-[#737373]'
         } px-4 py-2 rounded-3xl transition-colors duration-300 inline-flex items-center`}
         style={{ WebkitTapHighlightColor: 'rgba(0,0,0,0)' }}
@@ -245,9 +245,9 @@ function Store() {
       </button>
 
       <button
-        className={`text-[4vw] focus:outline-none visited:outline-none active:outline-none category-button border border-black ${
+        className={`text-[3.4vw] focus:outline-none visited:outline-none active:outline-none category-button border border-black ${
           selectedCategory === 'housing' ? 'bg-[#343434] text-white' : 'bg-white text-[#737373]'
-        } px-4 py-2 rounded-3xl transition-colors duration-300 inline-flex items-center`}
+        } px-4 rounded-3xl transition-colors duration-300 inline-flex items-center`}
         style={{ WebkitTapHighlightColor: 'rgba(0,0,0,0)' }}
         onClick={() => handleCategoryClick('housing')}
       >
@@ -257,9 +257,9 @@ function Store() {
       {/* Repeat the same structure for the remaining buttons */}
       
       <button
-        className={`text-[4vw] focus:outline-none visited:outline-none active:outline-none category-button border border-black ${
+        className={`text-[3.4vw] focus:outline-none visited:outline-none active:outline-none category-button border border-black ${
           selectedCategory === 'electronics' ? 'bg-[#343434] text-white' : 'bg-white text-[#737373]'
-        } px-4 py-2 rounded-3xl transition-colors duration-300 inline-flex items-center`}
+        } px-4 rounded-3xl transition-colors duration-300 inline-flex items-center`}
         style={{ WebkitTapHighlightColor: 'rgba(0,0,0,0)' }}
         onClick={() => handleCategoryClick('electronics')}
       >
@@ -267,7 +267,7 @@ function Store() {
       </button>
 
       <button
-        className={`text-[4vw] focus:outline-none visited:outline-none active:outline-none category-button border border-black ${
+        className={`text-[3.4vw] focus:outline-none visited:outline-none active:outline-none category-button border border-black ${
           selectedCategory === 'others' ? 'bg-[#343434] text-white' : 'bg-white text-[#737373]'
         } px-4 py-2 rounded-3xl transition-colors duration-300 inline-flex items-center`}
         style={{ WebkitTapHighlightColor: 'rgba(0,0,0,0)' }}
@@ -277,7 +277,7 @@ function Store() {
       </button>
 
       <button
-        className={`text-[4vw] focus:outline-none visited:outline-none active:outline-none category-button border border-black ${
+        className={`text-[3.4vw] focus:outline-none visited:outline-none active:outline-none category-button border border-black ${
           selectedCategory === 'our_services' ? 'bg-[#343434] text-white' : 'bg-white text-[#737373]'
         } px-4 py-2 rounded-3xl transition-colors duration-300 inline-flex items-center`}
         style={{ WebkitTapHighlightColor: 'rgba(0,0,0,0)' }}
@@ -287,7 +287,7 @@ function Store() {
       </button>
 
       <button
-        className={`text-[4vw] focus:outline-none visited:outline-none active:outline-none category-button border border-black ${
+        className={`text-[3.4vw] focus:outline-none visited:outline-none active:outline-none category-button border border-black ${
           selectedCategory === 'more' ? 'bg-[#343434] text-white' : 'bg-white text-[#737373]'
         } px-4 py-2 rounded-3xl transition-colors duration-300 inline-flex items-center`}
         style={{ WebkitTapHighlightColor: 'rgba(0,0,0,0)' }}
@@ -297,7 +297,7 @@ function Store() {
       </button>
       </div>
       {/* <img className="absolute right-0 mr-2 w-[7.5vw]" src={designImage} alt="" /> */}
-      <h2 className="text-[7vw] font-bold ml-4 mt-10">Featured</h2>
+      <h2 className="text-[5vw] font-bold ml-4 mt-10">Featured</h2>
       <div className='flex ml-4 mt-2'>
       <Swiper
       spaceBetween={10}
@@ -382,7 +382,7 @@ function Store() {
     </div>
     <div>
       <div className="flex justify-between mt-8">
-        <h2 className="font-bold text-[6vw] ml-4">Featured Store</h2>
+        <h2 className="font-bold text-[5vw] ml-4">Featured Store</h2>
         <p className="text-[3vw] mt-3 mr-4 ">View All</p>
       </div>
       <div className="flex mt-6 ml-4">
@@ -437,7 +437,7 @@ function Store() {
         </Swiper>
       </div>
     </div>
-    <h2 className="text-[7vw] font-bold ml-4 mt-10 ">Category</h2>
+    <h2 className="text-[5vw] font-bold ml-4 mt-10 ">Category</h2>
       
       <div className="flex justify-center">
         <div className="h-[78vw] w-[95vw] mt-6">
