@@ -8,6 +8,7 @@ import './Heart.css';
 import post1 from '../images/kate-trysh-Dnkr_lmdKi8-unsplash 1.png'
 import post2 from '../images/Rectangle 2269.png'
 import Communitypostcard from '@/components/Communitypostcard.jsx';
+import { Link } from 'react-router-dom';
 
 function Community() {
 
@@ -35,13 +36,14 @@ function Community() {
                 <h2 className="font-bold text-[6vw]">COMMUNITY</h2>
                 <div className="rounded-full bg-red-500 w-[1vh] h-[1vh]  mt-1"></div>
             </div>
-
-        <div className="rounded-full bg-black w-[12vw] h-[12vw] flex justify-center items-center absolute left-[85%]">
-            <img className='w-[6vw]' src={movieEditIcon} alt="" />              
+        <Link to='/communitypost'>
+        <div className="rounded-full bg-black w-[10vw] h-[10vw] flex justify-center items-center mt-[-5vw] absolute left-[87%]">
+            <img className='w-[5vw]' src={movieEditIcon} alt="" />              
         </div>
+        </Link>
                 </div>
     </div>
-    <div className=" mt-[29%] mb-32">
+    <div className=" mt-[25%] mb-32">
     <Communitypostcard 
         profilePicSrc={profilepic} // Provide the path to the profile picture
         profileImgSrc={post1} // Provide the path to the profile image
