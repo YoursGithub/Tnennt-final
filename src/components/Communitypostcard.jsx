@@ -27,11 +27,11 @@ function Communitypostcard({ profilePicSrc, profileImgSrc, name }) {
         <div className="flex justify-between">
           <div className="flex gap-2">
             <div className="w-[5vh] h-[5vh] rounded-full bg-[#343434] bg-cover bg-center bg-no-repeat" style={{backgroundImage: `url(${profilePicSrc})`}}></div>
-            <h2 className="font-bold text-[5vw] mt-2">{name}</h2>
+            <h2 className="font-bold text-[4.5vw] mt-2">{name}</h2>
           </div>
-          <h2 className="mt-4 text-[3.4vw] font-bold opacity-50">8 h ago</h2>
+          <h2 className="mt-3 text-[3.4vw] font-bold opacity-50">8 h ago</h2>
         </div>
-        <div className="flex justify-center mt-4 px-2">
+        <div className="flex justify-center px-2 text-[3.6vw]">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
         <div className="flex justify-center">
@@ -41,7 +41,7 @@ function Communitypostcard({ profilePicSrc, profileImgSrc, name }) {
         </div>
         <div className='flex justify-between mb-4'>
          <div className='flex gap-2'>
-                <div className='flex gap-3 border-2 border-[#BEBEBE]  rounded-3xl px-4 py-1  ml-2 items-center'>
+                <div className='flex gap-3 border-[1px] border-[#BEBEBE]  rounded-3xl px-4 py-1  ml-2 items-center'>
                 <div className="con-like">
       <input
           className="like w-2"
@@ -66,7 +66,7 @@ function Communitypostcard({ profilePicSrc, profileImgSrc, name }) {
     </div>
     <p className="font-bold opacity-70 text-[4vw]" >{likeCount}</p>
                 </div>
-                <div className="p-4 h-[4.4vh] border-2 border-[#BEBEBE] rounded-3xl flex justify-center items-center">
+                <div className="p-4 h-[4.4vh] border-[1px] border-[#BEBEBE] rounded-3xl flex justify-center items-center">
                 <a href="https://uiverse.io/" target="_blank" rel="noopener noreferrer" className="text-[3.5vw] text-[#989797]">link: https://uiverse.io/</a>
 
 
