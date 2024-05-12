@@ -32,7 +32,7 @@ function Storeregistrationstarting() {
                 
      
         </div>
-        <div className='w-[100vw] h-[95vw] relative'>
+        <div className='w-[100vw] h-[65vw] relative'>
         
         <Swiper
         onSlideChange={handleSlideChange}
@@ -49,10 +49,10 @@ function Storeregistrationstarting() {
         <SwiperSlide>
 
             <div className='flex justify-center'>
-            <img className='mt-[28vw] w-[74vw]' src={storebuild} alt="" />
+            <img className='mt-[9vw] w-[74vw]' src={storebuild} alt="" />
 
             </div>
-            <div className='flex flex-col mt-[40vw] gap-2 mb-[20vw]'>
+            <div className='flex flex-col mt-[38vw] gap-2 mb-[20vw]'>
                 <div className='flex justify-center'>
                 <h2 className='text-[5.7vw] font-bold '>Create Your Own e-Store</h2>
                 </div>
@@ -65,10 +65,10 @@ function Storeregistrationstarting() {
             <SwiperSlide>
 
             <div className='flex justify-center'>
-            <img className='mt-[28vw] w-[94vw]' src={delivery} alt="" />
+            <img className='mt-[8vw] w-[94vw]' src={delivery} alt="" />
 
             </div>
-            <div className='flex flex-col mt-[36vw] gap-2'>
+            <div className='flex flex-col mt-[33vw] gap-2'>
                 <div className='flex justify-center'>
                 <h2 className='text-[5.7vw] font-bold '>Delivery Support</h2>
                 </div>
@@ -81,10 +81,10 @@ function Storeregistrationstarting() {
             <SwiperSlide>
 
             <div className='flex justify-center'>
-            <img className='mt-[28vw] w-[54vw]' src={packing} alt="" />
+            <img className='mt-[8vw] w-[54vw]' src={packing} alt="" />
 
             </div>
-            <div className='flex flex-col mt-[44vw] gap-2'>
+            <div className='flex flex-col mt-[40vw] gap-2'>
                 <div className='flex justify-center'>
                 <h2 className='text-[5.7vw] font-bold '>Packaging</h2>
                 </div>
@@ -97,10 +97,10 @@ function Storeregistrationstarting() {
             <SwiperSlide>
       
             <div className='flex justify-center'>
-            <img className='mt-[28vw] w-[84vw]' src={analysis} alt="" />
+            <img className='mt-[8vw] w-[84vw]' src={analysis} alt="" />
 
             </div>
-            <div className='flex flex-col mt-[35vw] gap-2'>
+            <div className='flex flex-col mt-[30vw] gap-2'>
                 <div className='flex justify-center'>
                 <h2 className='text-[5.7vw] font-bold '>Analytics</h2>
                 </div>
@@ -113,10 +113,10 @@ function Storeregistrationstarting() {
             <SwiperSlide>
       
             <div className='flex justify-center'>
-            <img className='mt-[28vw] w-[84vw]' src={discount} alt="" />
+            <img className='mt-[8vw] w-[84vw]' src={discount} alt="" />
 
             </div>
-            <div className='flex flex-col mt-[34vw] gap-2'>
+            <div className='flex flex-col mt-[24vw] gap-2'>
                 <div className='flex justify-center'>
                 <h2 className='text-[5.7vw] font-bold '>Discount Coupons</h2>
                 </div>
